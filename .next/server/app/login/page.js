@@ -1,0 +1,16 @@
+const CHUNK_PUBLIC_PATH = "server/app/login/page.js";
+const runtime = require("../../chunks/ssr/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_7c458f._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__550d4a._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fa_index_mjs_a1beb0._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_lib_b806b5._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_@fortawesome_free-brands-svg-icons_index_mjs_aae2e2._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_0beb82._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__ad0461._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__1eb12a._.css");
+runtime.loadChunk("server/chunks/ssr/node_modules_ce97a5._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_forbidden-error_b4e556.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_unauthorized-error_d758e6.js");
+runtime.loadChunk("server/chunks/ssr/_1441e7._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/login/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/login/page { MODULE_0 => \"[project]/app/layout.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_1 => \"[project]/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/forbidden-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/unauthorized-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/app/login/page.jsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
